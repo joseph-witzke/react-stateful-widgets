@@ -10,7 +10,7 @@ import Programmers from './components/Programmers';
 
 render(
   <>
-    <Counter />
+    <Counter count={true}/>
     <Moods />
     <Spinner />
     <Input />
