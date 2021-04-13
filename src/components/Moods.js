@@ -38,13 +38,13 @@ export default function Moods() {
   const [mood, setMood] = useState(initialMood);
 
   const makeHappy = () => {
-    { setMood(happyMood) }
+     setMood(happyMood) 
   };
   const makeSad = () => {
-    { setMood(sadMood) }
+     setMood(sadMood) 
   };
   const reset = () => {
-    { setMood(initialMood) }
+     setMood(initialMood) 
   };
 
   const style = {
